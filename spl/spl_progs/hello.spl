@@ -1,0 +1,11 @@
+alias n S0;
+print "Password:";
+read n;
+while(n!=1234) do
+	print"Wrong";
+	print "Try Again!";
+	print "Password:";
+	read n;
+endwhile;
+print "Hello Saahil!";
+
