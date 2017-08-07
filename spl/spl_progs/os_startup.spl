@@ -23,7 +23,8 @@ PTLR=4;
 SP = 3 * 512; 
 
 [28 * 512] = 0; // Set up the IP value for INIT in the stack 
-
+load (9, 3);
+load (10, 4);
 load (11, 5);
 load (12, 6);
 ireturn;
